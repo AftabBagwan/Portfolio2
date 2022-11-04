@@ -2,7 +2,7 @@
   "private": true,
   "name": "personalPortfolio",
   "version": "1.0.0",
-  "homepage": "http://AftabBagwan.github.io/Portfolio",
+  "homepage": "http://aftabbagwan.github.io/",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",

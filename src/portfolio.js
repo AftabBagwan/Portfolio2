@@ -24,6 +24,9 @@ const socialMediaLinks = {
   github: "https://github.com/AftabBagwan",
   linkedin: "https://www.linkedin.com/in/aftab-bagwan-04142518b/",
   gmail: "aftabbagwan9886@gmail.com",
+  leetcode: "https://leetcode.com/aftabbagwan/",
+  geeksforgeeks: "https://auth.geeksforgeeks.org/user/aftabbagwan9886",
+  hackerrank: "https://www.hackerrank.com/aftabbagwan9886",
 };
 
 const skills = {
@@ -202,16 +205,32 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "Flutter Developer (Intern)",
+          title: "Mobile Application Developer (Intern)",
+          company: "Sublime Technologies",
+          company_url: "https://sublimetechnologies.in",
+          logo_path: "sublime.png",
+          duration: "Feb 2022 - July 2022",
+          location: "Remote",
+          description: `Designed, implemented, and tested Flutter and Dart code foriOS, Android and
+          Web.
+          Designed and created customs e-form features including scrolling selectors
+          and data entries.
+          Utilized custom APIs in applications.
+          Supported otherteam members initiative by developing solutions to common
+          problems and sharing those solutions.`,
+          color: "#0071C5",
+        },
+        {
+          title: "Software Developer (Intern)",
           company: "Nelumbus Technologies",
           company_url: "https://www.nelumbustech.com",
           logo_path: "nelumbus.png",
           duration: "Oct 2020 - Jan 2021",
           location: "Remote",
-          description: `Train, manage and provide guidance to junior software development staff.
-          Work closely with the Project Manager and Team Leads on change request functions.
-          Developed new and maintains existing applications backed by firebase.
-          `,
+          description: ["Developed cross platform applications using flutter backed by firebase.",
+          "Work closely with the Project Manager and Team Leads on change request functions.",
+          "Analyzed userrequirements, and translated client needs into application design.",
+          "Worked on bug fixing and improving application performance."],
           color: "#0071C5",
         },
         {
@@ -226,6 +245,33 @@ const experience = {
           I worked on the Weather forecase project which helps users track the weather condition.
           `,
           color: "#0071C5",
+        },
+      ],
+    },
+    {
+      title: "Volunteerships",
+      experiences: [
+        {
+          title: "RAIT ACM Volunteer",
+          company: "Association for Computing Machinery",
+          company_url: "https://www.acm.org",
+          logo_path: "acm.png",
+          duration: "Jan 2020 - Present",
+          location: "Work From Home",
+          description:
+            "RAIT ACM Student Chapter Student Volunteer and Member.",
+          color: "#D83B01",
+        },
+        {
+          title: "Social Wing RAIT Volunteer",
+          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
+          company_url: "https://indiaenvironment.org/",
+          logo_path: "efi.png",
+          duration: "Jan 2021 - Present",
+          location: "Work From Home",
+          description:
+            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
+          color: "#5a900f",
         },
       ],
     },
@@ -275,7 +321,7 @@ const projects = {
     },
     {
       id: "1",
-      name: "Women's Health",
+      name: "Stree App",
       url: "https://github.com/AftabBagwan/Womens-Health",
       description:
         "Provide any help that women may need for their overall wellbeing including enhancing their social status by removing taboos and derelicts.",
